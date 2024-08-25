@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["open.chendam.top"];
-pub const PUBLIC_RS_PUB_KEY: &str = "w2ah9QtvEVUB1inWTprlKovcEStWoNoeNSjTKWA9yJo=";
+pub const PUBLIC_RS_PUB_KEY: &str = "eRkOzk5MVqK9cuM3Mq9Ir2GN2svdVWPCV0mJYzKo6PM=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
